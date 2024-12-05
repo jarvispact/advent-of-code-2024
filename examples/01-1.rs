@@ -2,7 +2,7 @@ use std::error::Error;
 use std::fs;
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let input: String = fs::read_to_string("./inputs/1.txt")?;
+    let input: String = fs::read_to_string("./inputs/01.txt")?;
     let lines = input.lines();
 
     let mut list1: Vec<u32> = Vec::new();
